@@ -79,7 +79,7 @@ def predict_maize(img_array):
     return predicted_category, confidence
 
 with st.sidebar:
-    st.image("logo.png", width=120)
+    st.image("maizelogo.png", width=120)
     st.header("AGRIMAIZE CARE")
     uploaded_file = st.file_uploader(
         "Upload a maize leaf image",
