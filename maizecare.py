@@ -34,7 +34,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 
 st.set_page_config(page_title="Agromaize Care", layout="centered")
 
-MODEL_PATH = "agromaize_model.h5"
+MODEL_PATH = "second_maize_model_checkpoint.keras"
 
 class_labels = {
     0: "Maize fall armyworm",
