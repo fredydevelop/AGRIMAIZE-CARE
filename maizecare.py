@@ -24,10 +24,6 @@ from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 import streamlit as st
 import base64
 import pickle as pk
-
-
-import streamlit as st
-import numpy as np
 from PIL import Image, UnidentifiedImageError
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.image import img_to_array
@@ -87,7 +83,7 @@ with st.sidebar:
     )
     predict_clicked = st.button("Predict")
 
-st.title("Maize Leaf Classification")
+st.title("MAIZE DISEASE AND PEST DETECTOR ")
 
 if uploaded_file is not None:
     try:
