@@ -94,7 +94,7 @@ if uploaded_file is not None:
         img, img_array = preprocess_image(uploaded_file)
 
         st.subheader("Uploaded Image")
-        st.image(img, width=120)
+        st.image(img, width=400)
 
         if predict_clicked:
             predicted_category, confidence = predict_maize(img_array)
